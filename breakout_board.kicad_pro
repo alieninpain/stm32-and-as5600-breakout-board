@@ -60,30 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|120118200|68949000|aa9d2c9d-5895-407a-8595-c92e7fa5b4c6|d3bb2320-38d5-4c7a-af5c-a0b48c67ad66",
-          ""
-        ],
-        [
-          "hole_clearance|141474200|84097400|8f010096-c1eb-42fc-9e4e-cae1f28c72e3|fe546791-6e53-45e0-bdc3-ed99a80790f7",
-          ""
-        ],
-        [
-          "hole_clearance|141474200|90197400|4981911e-7de0-4964-9b99-e5496521830e|ed1f6862-f2dc-4bda-9009-41149cec8c32",
-          ""
-        ],
-        [
-          "silk_edge_clearance|121669133|92913200|aa9d2c9d-5895-407a-8595-c92e7fa5b4c6|01ad3aa2-94de-477a-b01e-05192de93a55",
-          ""
-        ],
-        [
-          "silk_over_copper|135749816|85233987|9c900e73-3ff1-4c39-b422-578eed0400e2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|136375463|76326952|a38a8146-c16c-4706-8258-91ac2df9782b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_overlap|135710200|84234399|9c900e73-3ff1-4c39-b422-578eed0400e2|c293a2f7-3d8c-4c05-a3f6-d201be250670",
           ""
         ]
@@ -604,12 +580,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ARROW_PRICE-STOCK",
+          "name": "ARROW_PRICE-STOCK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_NAME",
+          "name": "MANUFACTURER_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER_PART_NUMBER",
+          "name": "MOUSER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ARROW_PART_NUMBER",
+          "name": "ARROW_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
